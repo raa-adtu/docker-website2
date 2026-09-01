@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevOps Student Portal</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #374151;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            background: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h2 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            flex: 1;
+            min-width: 250px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>DevOps Student Portal</h1>
+        <p>Docker Lab - Website 2</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Learn DevOps with Docker</h2>
+        <p>This website is built with HTML and deployed using Docker.</p>
+
+        <a href="#courses" class="button">Explore Courses</a>
+    </section>
+
+    <section class="container" id="courses">
+
+        <h2>Courses</h2>
+        <br>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Git & GitHub</h3>
+                <p>
+                    Learn version control and collaborate using Git and GitHub.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Docker</h3>
+                <p>
+                    Learn how to build images and run applications inside containers.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>CI/CD</h3>
+                <p>
+                    Automate application building, testing and deployment.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container" id="tools">
+
+        <h2>DevOps Tools</h2>
+        <br>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Git</h3>
+                <p>Version control system.</p>
+            </div>
+
+            <div class="card">
+                <h3>Docker</h3>
+                <p>Containerization platform.</p>
+            </div>
+
+            <div class="card">
+                <h3>Kubernetes</h3>
+                <p>Container orchestration platform.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container" id="contact">
+
+        <h2>Contact</h2>
+        <br>
+
+        <p>Email: student@example.com</p>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 DevOps Student Portal</p>
+    </footer>
+
+</body>
+
+</html>
